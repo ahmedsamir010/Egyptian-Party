@@ -1,0 +1,218 @@
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+}
+p{
+  margin-bottom: 10px;
+}
+/* Header */
+#home{
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 660px;
+  position: relative;
+  color: white;
+}
+nav{
+  width: 0px;
+  height: 100%;
+  background-color: #414658;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.open-close{
+  font-size: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+ul{
+  padding: 0px;
+}
+li{
+  list-style-type: none;
+  padding: 20px 8px 20px 32px;
+}
+#home i{
+  position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: all .3s ;
+}
+.close{
+ color: #FFF;
+ text-decoration: none;
+ font-size: 25px;
+ transition: all 0.3s;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+nav a:hover{
+  color: #D62E33;
+}
+nav i:hover{
+  color: #D62E33;
+}
+.header-layer{
+  background-color: rgba(214, 46, 51, 0.6);
+  position: absolute;
+  inset: 0;
+}
+#home h2{
+  font-size: 60px;
+
+}
+/* end header */
+/* singer */
+
+
+#singers h2
+{
+    background-color: #e68285;
+    font-size: 27px;
+    padding: 7px 0px;
+    margin:0px;
+    cursor: pointer;
+}
+.singers-number
+{
+    width: 48%;
+    margin: auto;
+    text-align: center;
+}
+.about
+{
+    font-size: 14px;
+    background-color: #ccc;
+   padding: 10px;
+}
+
+
+/* footer */
+.socila-icons ul{
+ list-style:none ;
+display: flex;
+justify-content: center;
+}
+.socila-icons i{
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 40px;
+
+  cursor: pointer;
+  transition: all .5s;
+}
+.socila-icons i:hover{
+  background-color:#d62e33 ;
+}
+
+.head h2{
+  font-size: 35px;
+  color: #444444 ;
+  line-height: 39px;
+  font-weight: 700;
+}
+.head p,.contact-info p,.address p,.contactPhone p{
+  font-size: 16px;
+  color: #777777;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+
+
+.contactEmail p  s,small{
+  font-size: 16px;
+  color: #d62e33 !important  ;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-info h3{
+  font-size: 18px;
+  color: #444444;
+  line-height: 20px;
+  font-weight: 700;
+}
+.contact-info p{
+    color:  #777777  ;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contactPhone{
+  text-align: center;
+}
+.btn{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #D62E33;
+  border-radius: 0px;
+}
+.form input,.form textarea{
+  border-radius: 0px ;
+  border: 1px solid #c5c2c2 ;
+margin-bottom: 20px !important;
+padding: 10px 2x;
+}
+
+
+
+#singer{
+  text-align: center;
+margin: auto;
+background-color: #e68285;
+cursor: pointer;
+}
+.about{
+  padding: 10px 0px;
+  background-color: #ccc;
+
+margin: auto;
+}
+#singer h2{
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 400;
+}
+
+
+
+#duration
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    padding: 150px 0px;
+    position: relative;
+}
+.duration-layer
+{
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+  padding: 50px;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #FFF;
+
+}
