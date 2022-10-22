@@ -1,17 +1,22 @@
 $(".open-close").click(function () {
   if ($("nav").outerWidth() > "0") {
-    closeNav();
-  } else {
+    $("nav").animate({ width: "0px" }, 500);
+    $(".content").animate({ "margin-left": "0px" }, 500);  } 
+  else {
     $("nav").animate({ width: "250px" }, 500);
     $(".content").animate({ "margin-left": "250px" }, 500);
   }
 });
+
+
+
 $(".close").click(function closeNav() {
   {
     $("nav").animate({ width: "0px" }, 500);
     $(".content").animate({ "margin-left": "0px" }, 500);
   }
 });
+
 
 $(".about").not(".singer1").slideUp();
 $(".singers-number h2").click(function (e) { 
