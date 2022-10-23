@@ -38,7 +38,7 @@ function getTime()
     let minutes =Math.floor((timeBySec%(60*60*24))%(60*60)/60);
     let seconds = Math.floor((timeBySec%(60*60*24))%(60*60)%60);
     $(".days h3").text(`${days} D`)
-    $(".hours h3").text(`0${hours} h`)
+    $(".hours h3").text(`${hours} h`)
     $(".minutes h3").text(`${minutes} m`)
     $(".seconds h3").text(`${seconds} s`)
    
